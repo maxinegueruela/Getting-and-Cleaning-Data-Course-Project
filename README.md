@@ -5,9 +5,11 @@ This project use the information of the data analysis from http://archive.ics.uc
 
 ## Files and transformation
 
- **CodeBook.md** describes the variables, the data, and transformations made to clean the data.
- **run_analysis.R** contains the code to perform the analysis described in "codebook.md"
- **merged_and_cleaned_data.txt** contain the final data and processed data
+**CodeBook.md** describes the variables, the data, and transformations made to clean the data.
+ 
+**run_analysis.R** contains the code to perform the analysis described in "codebook.md"
+ 
+**merged_and_cleaned_data.txt** contain the final data and processed data
 
 
 

@@ -25,84 +25,97 @@ Original data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUC
 The final variables that will be stored in the final data set are only the ones that contain the mean or standad devitation..
 The original names are the following:
 
-*tBodyAccMeanX
-*tBodyAccMeanY
-*tBodyAccMeanZ
-*tBodyAccStdX
-*tBodyAccStdY
-*tBodyAccStdZ
-*tGravityAccMeanX
-*tGravityAccMeanY
-*tGravityAccMeanZ
-*tGravityAccStdX
-*tGravityAccStdY
-*tGravityAccStdZ
-*tBodyAccJerkMeanX
-*tBodyAccJerkMeanY
-*tBodyAccJerkMeanZ
-*tBodyAccJerkStdX
-*tBodyAccJerkStdY
-*tBodyAccJerkStdZ
-*tBodyGyroMeanX
-*tBodyGyroMeanY
-*tBodyGyroMeanZ
-*tBodyGyroStdX
-*tBodyGyroStdY
-*tBodyGyroStdZ
-*tBodyGyroJerkMeanX
-*tBodyGyroJerkMeanY
-*tBodyGyroJerkMeanZ
-*tBodyGyroJerkStdX
-*tBodyGyroJerkStdY
-*tBodyGyroJerkStdZ
-*tBodyAccMagMean
-*tBodyAccMagStd
-*tGravityAccMagMean
-*tGravityAccMagStd
-*tBodyAccJerkMagMean
-*tBodyAccJerkMagStd
-*tBodyGyroMagMean
-*tBodyGyroMagStd
-*tBodyGyroJerkMagMean
-*tBodyGyroJerkMagStd
-*fBodyAccMeanX
-*fBodyAccMeanY
-*fBodyAccMeanZ
-*fBodyAccStdX
-*fBodyAccStdY
-*fBodyAccStdZ
-*fBodyAccMeanFreqX
-*fBodyAccMeanFreqY
-*fBodyAccMeanFreqZ
-*fBodyAccJerkMeanX
-*fBodyAccJerkMeanY
-*fBodyAccJerkMeanZ
-*fBodyAccJerkStdX
-*fBodyAccJerkStdY
-*fBodyAccJerkStdZ
-*fBodyAccJerkMeanFreqX
-*fBodyAccJerkMeanFreqY
-*fBodyAccJerkMeanFreqZ
-*fBodyGyroMeanX
-*fBodyGyroMeanY
-*fBodyGyroMeanZ
-*fBodyGyroStdX
-*fBodyGyroStdY
-*fBodyGyroStdZ
-*fBodyGyroMeanFreqX
-*fBodyGyroMeanFreqY
-*fBodyGyroMeanFreqZ
-*fBodyAccMagMean
-*fBodyAccMagStd
-*fBodyAccMagMeanFreq
-*fBodyBodyAccJerkMagMean
-*fBodyBodyAccJerkMagStd
-*fBodyBodyAccJerkMagMeanFreq
-*fBodyBodyGyroMagMean
-*fBodyBodyGyroMagStd
-*fBodyBodyGyroMagMeanFreq
-*fBodyBodyGyroJerkMagMean
-*fBodyBodyGyroJerkMagStd
-*fBodyBodyGyroJerkMagMeanFreq
+* subject: The subject's unique IDs - Range: (1-30)
+
+* activity.name (The action the subject is taking)
+* possible values
+  * LAYING
+  * SITTING
+  * STANDING
+  * WALKING
+  * WALKING_DOWNSTAIRS
+  * WALKING_UPSTAIRS
+
+
+* tBodyAccMeanX
+* tBodyAccMeanY
+* tBodyAccMeanZ
+* tBodyAccStdX
+* tBodyAccStdY
+* tBodyAccStdZ
+* tGravityAccMeanX
+* tGravityAccMeanY
+* tGravityAccMeanZ
+* tGravityAccStdX
+* tGravityAccStdY
+* tGravityAccStdZ
+* tBodyAccJerkMeanX
+* tBodyAccJerkMeanY
+* tBodyAccJerkMeanZ
+* tBodyAccJerkStdX
+* tBodyAccJerkStdY
+* tBodyAccJerkStdZ
+* tBodyGyroMeanX
+* tBodyGyroMeanY
+* tBodyGyroMeanZ
+* tBodyGyroStdX
+* tBodyGyroStdY
+* tBodyGyroStdZ
+* tBodyGyroJerkMeanX
+* tBodyGyroJerkMeanY
+* tBodyGyroJerkMeanZ
+* tBodyGyroJerkStdX
+* tBodyGyroJerkStdY
+* tBodyGyroJerkStdZ
+* tBodyAccMagMean
+* tBodyAccMagStd
+* tGravityAccMagMean
+* tGravityAccMagStd
+* tBodyAccJerkMagMean
+* tBodyAccJerkMagStd
+* tBodyGyroMagMean
+* tBodyGyroMagStd
+* tBodyGyroJerkMagMean
+* tBodyGyroJerkMagStd
+* fBodyAccMeanX
+* fBodyAccMeanY
+* fBodyAccMeanZ
+* fBodyAccStdX
+* fBodyAccStdY
+* fBodyAccStdZ
+* fBodyAccMeanFreqX
+* fBodyAccMeanFreqY
+* fBodyAccMeanFreqZ
+* fBodyAccJerkMeanX
+* fBodyAccJerkMeanY
+* fBodyAccJerkMeanZ
+* fBodyAccJerkStdX
+* fBodyAccJerkStdY
+* fBodyAccJerkStdZ
+* fBodyAccJerkMeanFreqX
+* fBodyAccJerkMeanFreqY
+* fBodyAccJerkMeanFreqZ
+* fBodyGyroMeanX
+* fBodyGyroMeanY
+* fBodyGyroMeanZ
+* fBodyGyroStdX
+* fBodyGyroStdY
+* fBodyGyroStdZ
+* fBodyGyroMeanFreqX
+* fBodyGyroMeanFreqY
+* fBodyGyroMeanFreqZ
+* fBodyAccMagMean
+* fBodyAccMagStd
+* fBodyAccMagMeanFreq
+* fBodyBodyAccJerkMagMean
+* fBodyBodyAccJerkMagStd
+* fBodyBodyAccJerkMagMeanFreq
+* fBodyBodyGyroMagMean
+* fBodyBodyGyroMagStd
+* fBodyBodyGyroMagMeanFreq
+* fBodyBodyGyroJerkMagMean
+* fBodyBodyGyroJerkMagStd
+* fBodyBodyGyroJerkMagMeanFreq
+
 
 
